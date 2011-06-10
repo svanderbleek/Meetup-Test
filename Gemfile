@@ -26,11 +26,14 @@ gem 'jquery-rails'
 
 gem 'haml'
 gem 'haml-rails'
+gem 'carrierwave'
 
 group :development, :test do
   gem 'rspec-rails'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
+  gem 'cucumber-rails'
+  gem 'capybara'
 end
 
 group :test do
