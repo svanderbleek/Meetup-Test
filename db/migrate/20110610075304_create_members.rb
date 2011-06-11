@@ -5,7 +5,7 @@ class CreateMembers < ActiveRecord::Migration
       t.string :photo
       t.string :title
       t.string :join
-      t.string :bio
+      t.text :bio
 
       t.timestamps
     end

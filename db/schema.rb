@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(:version => 20110610075304) do
     t.string   "photo"
     t.string   "title"
     t.string   "join"
-    t.string   "bio"
+    t.text     "bio"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

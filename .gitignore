@@ -2,3 +2,7 @@
 db/*.sqlite3
 log/*.log
 tmp/
+*.swp
+*~
+.DS_STORE
+.sass_cache
